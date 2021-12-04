@@ -1,0 +1,84 @@
+.footer_container {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;;
+}
+
+.copyright {
+    font-weight: 600;
+    color: black;
+    font-size: large;
+    margin-top: 40px;
+}
+  
+.one {
+   gap: 27.5px;
+   flex-direction: column;
+   display: flex;
+   padding-left: 40px;
+   padding-top: 15px;
+   flex: 1.2;
+}
+
+.two {
+    gap: 27.5px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    flex: 2;
+ }
+
+ .three {
+    gap: 27.5px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    flex: 2;
+ }
+
+ .four {
+    gap: 27.5px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    flex: 4;
+ }
+
+.link_header {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+    text-align: left;
+}
+
+  

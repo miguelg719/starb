@@ -1,0 +1,23 @@
+.order {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 260px;
+    text-decoration: none;
+}
+
+.order_type {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.order_image {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 120px;
+    height: 120px;
+    
+}

@@ -1,0 +1,53 @@
+.item_list {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #34813b;
+    color: white;
+    vertical-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.category {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: stretch;
+    overflow-x: scroll;
+    flex: 8;
+}
+
+.wrapper { 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.arrow {
+    flex: 2;
+    align-content: center;
+    padding-top: 45px;
+}
+
+.item {
+    gap: 20px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org">
+
+<html>
+<head>
+    <title>Login</title>
+    
+</head>
+
+<body>
+ </body>
+
+ <form name="form" th:object="${command}" method="post" action="">
+    <label for="fname">Email</label>
+    <input type="text" id="email" name="email" placeholder="john.doe@gmail.com"  th:field="*{email}" />
+    <br>
+    <label for="lname"> Password</label>
+    <input type="text" id="password" name="password" placeholder="password"  th:field="*{password}" />
+    <br><br>
+    <input type="submit" name="action" id="Login" value="Login" class="btn">
+    <input type="submit" name="action" id="Sign Up" value="Sign Up" class="btn">
+    </form>
+ </html>
